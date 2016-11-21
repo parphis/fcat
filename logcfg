@@ -1,0 +1,13 @@
+* ALL: // We need to start level with star '*' and end with colon ':'
+    FORMAT                  =   "%datetime\t%level\t%log\t%user %host %func %loc"  // Quotes are not necessary but to make it more readable we wrap quotes around.
+    FILENAME                =   "logs/fcat.log"
+    ENABLED                 =   true
+    TO_FILE                 =   true
+    TO_STANDARD_OUTPUT      =   false
+    MILLISECONDS_WIDTH      =   3
+    PERFORMANCE_TRACKING    =   false
+    ROLL_OUT_SIZE           =  1024 // Throw log files away after 2MB
+
+// Following configuration only defines FORMAT for INFO, rest of the configurations are used from ALL configurations above
+//* INFO:
+//     FORMAT         =   %datetime %level %log

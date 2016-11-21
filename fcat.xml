@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fcat>
+	<app name="fcat">
+		<window-dim x="100" y="100" width="800" height="600" />
+		<working auto-start="no" />
+	</app>
+	<file-exts>
+		<ext desc="MS Office Word">doc</ext>
+		<ext desc="OO Open Document">odf</ext>
+		<ext desc="Plain Text">txt</ext>
+		<ext desc="Adobe Reader">pdf</ext>
+	</file-exts>
+	<process>
+		<search-in-subfolders status="no" />
+	</process>
+</fcat>

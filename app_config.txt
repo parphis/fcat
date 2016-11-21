@@ -1,0 +1,12 @@
+Software configuration entries
+-------------------------------
+
+window-pos-x / int
+window-pos-y / int
+window-width / int
+window-height / int
+auto-start / boolean
+file-extensions / array of strings -> decription = extension without dot
+search-in-subfolders / boolean
+deep-level / int
+export-to / string
